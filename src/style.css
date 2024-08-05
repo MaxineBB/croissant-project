@@ -1,0 +1,30 @@
+body {
+    background-color: #FFFFEE;
+    margin: 0 30px;
+    padding: 150px;
+}
+
+.croissant-photos {
+    width: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: #be8b67;
+    transition: 200ms all;
+}
+
+a:hover {
+    border: 2px dotted;
+    padding: 5px;
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+    color: #a0551f;
+    transform: translate(20px, 0);
+}
+
+p {
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
