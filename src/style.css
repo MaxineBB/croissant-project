@@ -1,7 +1,7 @@
 body {
-    background-color: #FFFFEE;
+    background-color: #FEFDEC;
     margin: 0 30px;
-    padding: 150px;
+    padding: 150px 450px;
 }
 
 .croissant-photos {
@@ -12,11 +12,13 @@ a {
     text-decoration: none;
     color: #be8b67;
     transition: 200ms all;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a:hover {
     border: 2px dotted;
     padding: 5px;
+    cursor: pointer;
 }
 
 h1 {
@@ -27,4 +29,5 @@ h1 {
 
 p {
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   transform: translate(20px, -50px);
 }
