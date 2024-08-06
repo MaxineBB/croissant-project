@@ -1,7 +1,15 @@
 body {
+    max-width: 800px;
     background-color: #FEFDEC;
     margin: 0 30px;
-    padding: 150px 450px;
+    padding: 150px 480px;
+    transform: translate(40px, 0);
+}
+
+#content {
+    border: 5px dotted #be8b67;
+    padding: 80px;
+    
 }
 
 .croissant-photos {
@@ -13,12 +21,16 @@ a {
     color: #be8b67;
     transition: 200ms all;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 15px;
+
 }
 
 a:hover {
-    border: 2px dotted;
     padding: 5px;
     cursor: pointer;
+    text-decoration: wavy underline;
+    color: #a0551f;
 }
 
 h1 {
@@ -30,4 +42,21 @@ h1 {
 p {
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    transform: translate(20px, -50px);
+}
+
+.croissant-contact {
+    width: 150px;
+}
+
+.more-info {
+    transform: translate(18px, 0);
+}
+
+em {
+    color: #a0551f;
+}
+
+.croissant-pic {
+    width: 400px;
+    transform: translate(150px, 0);
 }
